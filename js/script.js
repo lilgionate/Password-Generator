@@ -52,9 +52,9 @@ function generatePassword() {
 
 
     var password = '';
-    for (var i = 0; 1 < length; i++){
+    for (var i = 0; i < userChoice; i++){
       var randomIndex = 
-      math.floor(Math.random() * writepassword.length);
+      Math.floor(Math.random() * writepassword.length);
       password += writepassword[randomIndex];
     }
     return password;
